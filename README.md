@@ -36,13 +36,6 @@ The system helps fleet managers understand vehicle performance, fuel consumption
 | ------------------- | --------------------------------------- |
 | **Microsoft Excel** | Data cleaning and preprocessing         |
 | **MySQL**           | Data storage and SQL analysis           |
-| **Python**          | Data analysis and Machine Learning      |
-| **Pandas**          | Data manipulation                       |
-| **NumPy**           | Numerical analysis                      |
-| **Matplotlib**      | Data visualization                      |
-| **Seaborn**         | Exploratory data visualization          |
-| **Scikit-learn**    | Machine Learning                        |
-| **XGBoost**         | Advanced prediction                     |
 | **Power BI**        | Interactive dashboard and visualization |
 
 ---
@@ -59,12 +52,6 @@ Excel
 MySQL Database
         ↓
 SQL Queries & Analysis
-        ↓
-Python EDA
-        ↓
-Feature Engineering
-        ↓
-Machine Learning Model
         ↓
 Prediction
         ↓
@@ -155,74 +142,6 @@ The project includes SQL operations such as:
 * Which vehicles have the highest maintenance expenses?
 * What is the average distance travelled by vehicle?
 * Which vehicles are performing below the fleet average?
-
----
-
-# 🐍 Python Data Analysis
-
-Python is used for data preprocessing, exploratory data analysis, feature engineering, and Machine Learning.
-
-### Main Libraries
-
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-```
-
-Python is used to:
-
-* Handle missing values
-* Remove duplicate records
-* Detect outliers
-* Analyze numerical variables
-* Analyze categorical variables
-* Generate visualizations
-* Create features for Machine Learning
-* Train and evaluate prediction models
-
----
-
-# 🤖 Machine Learning Prediction
-
-The prediction component of FleetPulse uses Machine Learning to identify potential fleet risks and performance issues.
-
-## Algorithms Used
-
-### 🌳 Decision Tree
-
-Decision Tree provides an easy-to-understand rule-based approach for predicting fleet outcomes.
-
-It can be used to identify conditions associated with:
-
-* High fuel consumption
-* Poor vehicle performance
-* Maintenance requirements
-* Fleet risk
-
-### 🌲 Random Forest
-
-Random Forest combines multiple decision trees to improve prediction performance and reduce overfitting.
-
-It can be used for:
-
-* Vehicle risk classification
-* Maintenance prediction
-* Performance prediction
-* Fuel efficiency classification
-
-### ⚡ XGBoost
-
-XGBoost is an advanced gradient boosting algorithm used to improve prediction accuracy and capture complex relationships within the fleet data.
-
-It can be used for:
-
-* Fleet risk prediction
-* Vehicle performance prediction
-* Maintenance prediction
-* Classification and regression problems
-
 ---
 
 # 🔮 Prediction Output
@@ -247,31 +166,6 @@ High Maintenance Cost
 High Fleet Risk
 ```
 
-The prediction helps fleet managers identify vehicles that may require attention before they become major operational problems.
-
----
-
-# 📈 Model Evaluation
-
-The Machine Learning model is evaluated using suitable performance metrics.
-
-### Classification Metrics
-
-* Accuracy
-* Precision
-* Recall
-* F1-Score
-* Confusion Matrix
-* ROC-AUC
-
-### Regression Metrics
-
-* MAE
-* MSE
-* RMSE
-* R² Score
-
-The appropriate model is selected based on its performance and business requirements.
 
 ---
 
@@ -374,20 +268,11 @@ FleetPulse/
 ├── sql/
 │   └── fleet_queries.sql
 │
-├── notebooks/
-│   └── fleet_analysis.ipynb
-│
-├── model/
-│   └── fleet_prediction_model.pkl
-│
 ├── dashboard/
 │   └── FleetPulse.pbix
 │
 ├── screenshots/
-│   └── dashboard.png
-│
-├── requirements.txt
-│
+│   └── dashboard.png│
 └── README.md
 ```
 
